@@ -17,4 +17,5 @@
 
 .footer-li::marker {
   color: #ed5217;
+  font-size: 20px;
 }
