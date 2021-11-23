@@ -9,8 +9,11 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+    <Box sx={{ flexGrow: 1, zIndex: 999 }}>
+      <AppBar
+        position="static"
+        style={{ backgroundColor: "transparent", boxShadow: "none" }}
+      >
         <Toolbar>
           <IconButton
             size="large"
