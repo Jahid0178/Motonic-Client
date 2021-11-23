@@ -1,0 +1,12 @@
+.footer-header {
+  color: #444;
+}
+
+.footer-header::after {
+  content: "";
+  display: block;
+  background: #ed5217;
+  width: 75px;
+  height: 3px;
+  margin-top: 15px;
+}
