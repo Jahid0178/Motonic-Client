@@ -10,15 +10,19 @@ const alignment = {
 
 const About = () => {
   return (
-    <Box>
+    <Box sx={{ my: 10 }}>
       <Grid container spacing={2}>
         <Grid xs={12} sm={12} md={6}>
           <img src={AboutImg} alt="" style={{ width: "80%" }} />
         </Grid>
         <Grid xs={12} sm={12} md={6} style={alignment}>
           <Box>
-            <Typography sx={{ mb: 1 }}>About Our Company</Typography>
-            <Typography variant="h4">How We Can Help you</Typography>
+            <Typography sx={{ mb: 1, color: "#ed5217" }}>
+              About Our Company
+            </Typography>
+            <Typography className="about-small-header" variant="h4">
+              How We Can Help you
+            </Typography>
             <Typography sx={{ my: 4 }}>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
