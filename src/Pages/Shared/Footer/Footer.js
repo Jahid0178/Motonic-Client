@@ -3,7 +3,11 @@ import React from "react";
 import FooterLogo from "../../../Images/Home/logo.png";
 import FooterImgOne from "../../../Images/Footer/footerImg1.jpg";
 import FooterImgTwo from "../../../Images/Footer/footerImg2.jpg";
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,6 +20,15 @@ const Footer = () => {
               Simply dummy text of the printing and typesetting industry. Lorem
               Ipsum has been the industry's standard dummy text ever.
             </Typography>
+            <Link to="#" style={{ color: "#444" }}>
+              <FacebookOutlinedIcon sx={{ mr: 2 }} />
+            </Link>
+            <Link to="#" style={{ color: "#444" }}>
+              <TwitterIcon sx={{ mr: 2 }} />
+            </Link>
+            <Link to="#" style={{ color: "#444" }}>
+              <InstagramIcon />
+            </Link>
           </Grid>
           <Grid xs={12} sm={12} md={3} sx={{ px: 2 }}>
             <Typography
