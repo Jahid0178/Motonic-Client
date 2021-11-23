@@ -102,23 +102,23 @@ const Footer = () => {
             >
               Services
             </Typography>
-            <ul>
-              <li style={{ marginBottom: "5px" }}>
+            <ul className="footer-ul">
+              <li className="footer-li" style={{ marginBottom: "5px" }}>
                 <Typography>Engine Repairs</Typography>
               </li>
-              <li style={{ marginBottom: "5px" }}>
+              <li className="footer-li" style={{ marginBottom: "5px" }}>
                 <Typography>Tire Replacement</Typography>
               </li>
-              <li style={{ marginBottom: "5px" }}>
+              <li className="footer-li" style={{ marginBottom: "5px" }}>
                 <Typography>Transmission</Typography>
               </li>
-              <li style={{ marginBottom: "5px" }}>
+              <li className="footer-li" style={{ marginBottom: "5px" }}>
                 <Typography>Diagnostic</Typography>
               </li>
-              <li style={{ marginBottom: "5px" }}>
+              <li className="footer-li" style={{ marginBottom: "5px" }}>
                 <Typography>Batteries</Typography>
               </li>
-              <li>
+              <li className="footer-li">
                 <Typography>Break Repair</Typography>
               </li>
             </ul>
