@@ -9,7 +9,7 @@ import "./Team.css";
 const Team = () => {
   return (
     <Container>
-      <Typography sx={{ textAlign: "center", color: "#ed5217" }}>
+      <Typography sx={{ textAlign: "center", color: "#ed5217", mt: 5 }}>
         Meet Our Expertise
       </Typography>
       <Typography
