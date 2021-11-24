@@ -1,4 +1,4 @@
-import { Container, Typography, Grid, Paper } from "@mui/material";
+import { Container, Typography, Grid, Paper, Box } from "@mui/material";
 import React from "react";
 import PersonOne from "../../../Images/Person/img-1.jpg";
 import PersonTwo from "../../../Images/Person/img-2.jpg";
